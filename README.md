@@ -1,32 +1,45 @@
 # MED-AI-
 A healthcare assistant that predicts diabetes risk and provides a chatbot for medical FAQs, appointment booking, and insurance information.
 
-# 🩺 MedAI – Diabetes Prediction & Health Chatbot
+# MedAI Chatbot Expert System
 
-MedAI is an AI-powered healthcare assistant that helps with **diabetes risk prediction** and provides a **chatbot** for basic medical knowledge, appointment booking, and insurance inquiries.
+This project is a medical chatbot expert system designed to help users with preliminary health inquiries. It uses a predictive model to assess the likelihood of diabetes based on user-provided data.
 
----
+## Features
 
-## 🚀 Features
-- ✅ **Diabetes Prediction** – Logistic Regression model trained on medical data  
-- 💬 **Health Chatbot** – Answers common health queries (fever, cough, stress, etc.)  
-- 📅 **Appointments** – Patients can schedule appointments via chatbot  
-- 🛡 **Insurance Info** – Provides package and insurance details  
-- 📂 **Data Storage** – Saves appointments/insurance requests into CSV files  
+- **Interactive Chatbot:** A user-friendly interface built with Streamlit for seamless interaction.
+- **Diabetes Prediction:** A machine learning model (Random Forest Classifier) that analyzes health metrics to provide a prediction.
+- **Knowledge Base:** The chatbot can answer common questions related to health and project functionality.
 
----
+## Technologies Used
 
-## 🛠 Tech Stack
-- **Python** (pandas, numpy, scikit-learn, joblib)  
-- **Streamlit** – chatbot interface  
-- **Jupyter Notebook** – model training & analysis  
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- scikit-learn
+- Joblib
 
----
+## How to Run the Project
 
-## 📊 Model Performance
-- Accuracy: (`85%`)  
-- Precision/Recall: (add values here)  
-
----
-
-## 📂 Project Structure
+1.  **Clone the repository:**
+    ```bash
+    git clone [your-repository-url]
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd MedAI-Chatbot-Project
+    ```
+3.  **Create a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+4.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+5.  **Run the Streamlit app:**
+    ```bash
+    streamlit run chat.py
+    ```
