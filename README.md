@@ -1,7 +1,7 @@
-# MED-AI-
-A healthcare assistant that predicts diabetes risk and provides a chatbot for medical FAQs, appointment booking, and insurance information.
+<img width="1365" height="601" alt="image" src="https://github.com/user-attachments/assets/a8b6b80a-d57e-4dec-b874-351ae7a425a8" />
 
-# MedAI Chatbot Expert System
+# MedAI Chatbot Expert System <img width="265" height="213" alt="image" src="https://github.com/user-attachments/assets/e44ce041-11dd-4c6c-99b6-1d4f53c88e18" />
+
 
 This project is a medical chatbot expert system designed to help users with preliminary health inquiries. It uses a predictive model to assess the likelihood of diabetes based on user-provided data.
 
