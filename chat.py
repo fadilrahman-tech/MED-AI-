@@ -11,8 +11,8 @@ import os
 st.set_page_config(page_title="MedAI Chatbot Expert System", layout="centered")
 
 # ---------------------- Load Pre-trained Model & Scaler ----------------------
-MODEL_PATH = 'D:/Westford/Westford Masters/AI/logistic_model_tuned.pkl'
-SCALER_PATH = 'D:/Westford/Westford Masters/AI/medai_scaler.pkl'
+MODEL_PATH = 'logistic_model_tuned.pkl''
+SCALER_PATH = 'medai_scaler.pkl'
 
 medai_diabetes_model = None
 medai_scaler = None
@@ -235,3 +235,4 @@ if user_input:
     st.session_state.messages.append({"role": "assistant", "content": bot_reply})
     with st.chat_message("assistant"):
         st.markdown(bot_reply)
+
